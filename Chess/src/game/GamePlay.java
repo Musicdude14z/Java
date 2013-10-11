@@ -1,5 +1,7 @@
 package game;
 
+import javax.swing.JOptionPane;
+
 import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
@@ -18,7 +20,7 @@ public class GamePlay extends BasicGameState {
 	
 	public static final int WHITE = 0, BLACK = 1;
 	public static int winner;
-	public static String result = "";
+	public static String result = "", pawnChoices[] = {"Rook", "Knight", "Bishop", "Queen"};
 	
 	/*
 	 * TODO: Add support for -done-check, and -done-checkMate
@@ -162,6 +164,31 @@ public class GamePlay extends BasicGameState {
 				}
 			}
 			score[whiteTurn ? WHITE : BLACK] += s;
+			//Pawn Replacement
+			int y = whiteTurn ? 0 : 7; //Decides which row to check
+			for(int x=0; x<8; x++) { 
+				if(board.getPiece(x, y) instanceof Pawn) {
+					int choice = JOptionPane.showOptionDialog(null, "Select a piece that you " +
+							"would like to replace you pawn at ("+(x+1)+","+(y+1)+") with:", 
+							"Pawn Replacement", JOptionPane.DEFAULT_OPTION, 
+							JOptionPane.QUESTION_MESSAGE, null, pawnChoices, 3);
+					switch(choice) {
+					case 0:
+						board.setPiece(x, y, new Rook(x, y, !whiteTurn));
+						break;
+					case 1:
+						board.setPiece(x, y, new Horse(x, y, !whiteTurn));
+						break;
+					case 2:
+						board.setPiece(x, y, new Bishop(x, y, !whiteTurn));
+						break;
+					case 3:
+						board.setPiece(x, y, new Queen(x, y, !whiteTurn));
+						break;
+					}
+				}
+			}
+			
 			whiteTurn = !whiteTurn;
 			if(!board.isSafe(kings[whiteTurn ? WHITE : BLACK])) {
 				check[whiteTurn ? WHITE : BLACK] = true;
