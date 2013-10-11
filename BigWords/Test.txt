@@ -1,0 +1,28 @@
+Basic Test File:
+
+This is my first test File!  I'm going to print out the entire Alphabet, and all other 'chars' too:
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+0123456789
+
+`~!@#$%^&*()-_=+[]{}\|;:'"<>,./?
+
+This is a test of the tab method:
+
+	Test
+T	Test
+TT	Test
+TTT	Test
+TTTT	Test
+TTTTT	Test
+TTTTTT	Test
+TTTTTTT	Test
+TTTTTTTT	Test
+
+Testing is "complete". Yay for my code!
+I'm so Happy!
+
+ajdfjasd;flkja;sdlkjfa;sjdf;akj;lkad

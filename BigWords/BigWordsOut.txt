@@ -1,0 +1,151 @@
+BBBB                                TTTTT   e           t         FFFFF        l      e         
+ B  B  aa     ss    i     cc          T    e e    ss   ttt        F       i     l    e e    :   
+ BBB  a  a    s          c            T    eee    s     t         FFFF          l    eee        
+ B  B a  a     s    i    c            T    e       s    t         F       i     l    e      :   
+BBBB   aa a   ss    i     cc          T     ee    ss    tt        F       i     l     ee        
+
+
+
+
+TTTTT  h                                                             f                      t           t     e           t         FFFFF        l      e    !                IIIII   '                 g                       g           t                                         t                       t           t    h      e           e           t                 e          AAA   l           h          bb      e     t                              dd              l     l                  t    h      e                 '          h                        '           t                     
+  T    h      i     ss          i     ss                            f     i           ss   ttt         ttt   e e    ss   ttt        F       i     l    e e   !                  I     '                g g          i          g g         ttt               pp           i          ttt                     ttt         ttt   h     e e         e e         ttt    i          e e        A   A   l    pp    h     aa    b     e e   ttt               aa            d         aa     l     l                ttt   h     e e                '     cc   h     aa           ss    '          ttt                :   
+  T    hhh          s                 s          m m    y y        fff          rr    s     t           t    eee    s     t         FFFF          l    eee   !                  I          m m          gg    o           n     gg          t     o          p p    rr          n     t           o    u u    t           t    hhh   eee         eee    n     t           rr   eee        AAAAA   l    p p   hhh  a  a   bbb   eee    t               a  a    n    ddd        a  a    l     l           o     t    hhh   eee    rr               c     hhh  a  a    rr    s                 t     o     o         
+  T    h h    i      s          i      s        m m m    y          f     i    r       s    t           t    e       s    t         F       i     l    e                        I         m m m          g   o o    i    n n     g          t    o o         pp    r      i    n n    t          o o   u u    t           t    h h   e           e     n n    t     i    r     e          A   A   l    pp    h h  a  a   b  b  e      t     ,         a  a   n n  d  d        a  a    l     l          o o    t    h h   e     r                 c     h h  a  a   r       s                t    o o   o o    :   
+  T    h h    i     ss          i     ss        m   m  yy           f     i    r      ss    tt          tt    ee    ss    tt        F       i     l     ee   !                IIIII       m   m        gg     o     i    n n   gg           tt    o          p     r      i    n n    tt          o    uuu    tt          tt   h h    ee          ee   n n    tt    i    r      ee        A   A   l    p     h h   aa a  bbb    ee    tt   ,           aa a  n n   ddd         aa a   l     l           o     tt   h h    ee   r                  cc   h h   aa a  r      ss                tt    o     o         
+
+
+
+
+ AAA  BBBB   CCC  DDDD  EEEEE FFFFF  GGG  H   H IIIII   JJJ KK  K L     M   M N   N  OOO  PPPP   QQQ  RRRR   SSS  TTTTT U   U V   V W   W X   X Y   Y ZZZZZ 
+A   A  B  B C   C D   D E     F     G     H   H   I      J   K K  L     MM MM NN  N O   O  P  P Q   Q  R  R S       T   U   U V   V W   W  X X   Y Y     Z  
+AAAAA  BBB  C     D   D EEEE  FFFF  G  GG HHHHH   I      J   KK   L     M M M N N N O   O  PPP  Q   Q  RRR   SSS    T   U   U V   V W W W   X     Y     Z   
+A   A  B  B C   C D   D E     F     G   G H   H   I   J  J   K K  L     M   M N  NN O   O  P     QQQ   R  R     S   T   U   U  V V  WW WW  X X    Y    Z    
+A   A BBBB   CCC  DDDD  EEEEE F      GGG  H   H IIIII  JJ    K  K LLLLL M   M N   N  OOO   P       QQ  R  R  SSS    T   UUUUU   V   W   W X   X   Y   ZZZZZ 
+
+
+
+
+      bb             dd   e      f    g    h            j    k     l                                                t                                       
+ aa    b      cc     d   e e    f    g g   h      i          k k    l                      pp    qq           ss   ttt                                 zzzz 
+a  a   bbb   c     ddd   eee   fff    gg   hhh          j    kk     l    m m    n     o    p p  q q     rr    s     t    u u   v v  w   w  x x    y y    z  
+a  a   b  b  c    d  d   e      f      g   h h    i     j    k k    l   m m m  n n   o o   pp    qq q  r       s    t    u u   v v  w w w   x      y    z   
+ aa a  bbb    cc   ddd    ee    f    gg    h h    i    j     k k    l   m   m  n n    o    p      qq   r      ss    tt   uuu    v    w w   x x   yy    zzzz 
+
+
+
+
+ 000    1     22   333    44   5555   66   7777  888    99  
+0  00  11    2  2     3  4 4   5     6        7 8   8  9  9 
+0 0 0   1      2    33  4  4   555   666     7   888    999 
+00  0   1     2       3 44444     5  6  6   7   8   8     9 
+ 000   111   2222  333     4   555    66    7    888    99  
+
+
+
+
+ `           !     @@@   # #   $$$  %   %   ^    &     * *     (   )                              [[   ]]      {   }    \       |                 '    " "     <   >                    /  ???  
+  `    ~     !    @ @ @ ##### $ $      %   ^ ^  & &     *     (     )                ===    +     [     ]     {     }    \      |     ;     :     '    " "    <     >                  /  ?   ? 
+      ~ ~ ~  !    @@ @@  # #   $$$    %   ^   ^  &     * *    (     )    ---               +++    [     ]    {{     }}    \     |                            <       >                /      ?  
+         ~        @ @@@ #####   $ $  %          & &           (     )                ===    +     [     ]     {     }      \    |     ;     :                 <     >     ,    ..    /          
+             !     @@    # #   $$$  %   %       && &&          (   )          _____               [[   ]]      {   }        \   |    ;                         <   >     ,     ..   /       ?   
+
+
+
+
+TTTTT  h                                                      t     e           t                  f          t    h      e           t         bb                  e     t    h             dd       
+  T    h      i     ss          i     ss         aa          ttt   e e    ss   ttt                f          ttt   h     e e         ttt   aa    b                 e e   ttt   h             d    :   
+  T    hhh          s                 s         a  a          t    eee    s     t           o    fff          t    hhh   eee          t   a  a   bbb         m m   eee    t    hhh    o    ddd        
+  T    h h    i      s          i      s        a  a          t    e       s    t          o o    f           t    h h   e            t   a  a   b  b       m m m  e      t    h h   o o  d  d    :   
+  T    h h    i     ss          i     ss         aa a         tt    ee    ss    tt          o     f           tt   h h    ee          tt   aa a  bbb        m   m   ee    tt   h h    o    ddd        
+
+
+
+
+                        TTTTT   e           t   
+                          T    e e    ss   ttt  
+                          T    eee    s     t   
+                          T    e       s    t   
+                          T     ee    ss    tt  
+
+
+TTTTT                   TTTTT   e           t   
+  T                       T    e e    ss   ttt  
+  T                       T    eee    s     t   
+  T                       T    e       s    t   
+  T                       T     ee    ss    tt  
+
+
+TTTTT TTTTT             TTTTT   e           t   
+  T     T                 T    e e    ss   ttt  
+  T     T                 T    eee    s     t   
+  T     T                 T    e       s    t   
+  T     T                 T     ee    ss    tt  
+
+
+TTTTT TTTTT TTTTT       TTTTT   e           t   
+  T     T     T           T    e e    ss   ttt  
+  T     T     T           T    eee    s     t   
+  T     T     T           T    e       s    t   
+  T     T     T           T     ee    ss    tt  
+
+
+TTTTT TTTTT TTTTT TTTTT                         TTTTT   e           t   
+  T     T     T     T                             T    e e    ss   ttt  
+  T     T     T     T                             T    eee    s     t   
+  T     T     T     T                             T    e       s    t   
+  T     T     T     T                             T     ee    ss    tt  
+
+
+TTTTT TTTTT TTTTT TTTTT TTTTT                   TTTTT   e           t   
+  T     T     T     T     T                       T    e e    ss   ttt  
+  T     T     T     T     T                       T    eee    s     t   
+  T     T     T     T     T                       T    e       s    t   
+  T     T     T     T     T                       T     ee    ss    tt  
+
+
+TTTTT TTTTT TTTTT TTTTT TTTTT TTTTT             TTTTT   e           t   
+  T     T     T     T     T     T                 T    e e    ss   ttt  
+  T     T     T     T     T     T                 T    eee    s     t   
+  T     T     T     T     T     T                 T    e       s    t   
+  T     T     T     T     T     T                 T     ee    ss    tt  
+
+
+TTTTT TTTTT TTTTT TTTTT TTTTT TTTTT TTTTT       TTTTT   e           t   
+  T     T     T     T     T     T     T           T    e e    ss   ttt  
+  T     T     T     T     T     T     T           T    eee    s     t   
+  T     T     T     T     T     T     T           T    e       s    t   
+  T     T     T     T     T     T     T           T     ee    ss    tt  
+
+
+TTTTT TTTTT TTTTT TTTTT TTTTT TTTTT TTTTT TTTTT                         TTTTT   e           t   
+  T     T     T     T     T     T     T     T                             T    e e    ss   ttt  
+  T     T     T     T     T     T     T     T                             T    eee    s     t   
+  T     T     T     T     T     T     T     T                             T    e       s    t   
+  T     T     T     T     T     T     T     T                             T     ee    ss    tt  
+
+
+
+
+TTTTT   e           t                 g                            " "                           l      e     t     e    " "              Y   Y                      f                                                     dd   e    !    
+  T    e e    ss   ttt    i          g g          i     ss         " "    cc               pp     l    e e   ttt   e e   " "               Y Y   aa                 f                                         cc           d   e e   !    
+  T    eee    s     t           n     gg                s                c      o    m m   p p    l    eee    t    eee                      Y   a  a    y y        fff    o     rr         m m    y y        c      o    ddd   eee   !    
+  T    e       s    t     i    n n     g          i      s               c     o o  m m m  pp     l    e      t    e           ..           Y   a  a     y          f    o o   r          m m m    y         c     o o  d  d   e          
+  T     ee    ss    tt    i    n n   gg           i     ss                cc    o   m   m  p      l     ee    tt    ee         ..           Y    aa a  yy           f     o    r          m   m  yy           cc    o    ddd    ee   !    
+
+
+IIIII   '                                 H   H                          !    
+  I     '                 ss              H   H  aa    pp    pp          !    
+  I          m m          s     o         HHHHH a  a   p p   p p    y y  !    
+  I         m m m          s   o o        H   H a  a   pp    pp      y        
+IIIII       m   m         ss    o         H   H  aa a  p     p     yy    !    
+
+
+
+
+        j      dd    f    j                  dd          f   l     k      j                        dd  l     k      j      f                      j      dd    f               k      j          l     k             dd 
+ aa            d    f          aa     ss     d    ;     f     l    k k         aa     ;     ss     d    l    k k          f    aa     ;     ss           d    f     ;    aa    k k          ;     l    k k   aa      d  
+a  a    j    ddd   fff    j   a  a    s    ddd         fff    l    kk     j   a  a          s    ddd    l    kk     j    fff  a  a          s     j    ddd   fff        a  a   kk     j           l    kk   a  a   ddd  
+a  a    j   d  d    f     j   a  a     s  d  d    ;     f     l    k k    j   a  a    ;      s  d  d    l    k k    j     f   a  a    ;      s    j   d  d    f     ;   a  a   k k    j     ;     l    k k  a  a  d  d  
+ aa a  j     ddd    f    j     aa a   ss   ddd   ;      f     l    k k   j     aa a  ;      ss   ddd    l    k k   j      f    aa a  ;      ss   j     ddd    f    ;     aa a  k k   j     ;      l    k k   aa a  ddd  
+
+
