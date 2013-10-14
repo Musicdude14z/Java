@@ -1,4 +1,4 @@
-package lab1;
+package chapter1;
 
 public class Ex1_5 {
 
