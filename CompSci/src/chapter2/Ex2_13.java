@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Ex2_13 {
 
 	/*
-	 * 2.13 Takes a monthly amount to add 
+	 * 2.13 Takes a monthly amount to add and calculates the final amount after sixmonths 
+	 * with interest of 5%
 	 */
 	public static void main(String[] args) {
 		System.out.print("Enter the monthly saving amount: ");

@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Ex2_14 {
 
+	/*
+	 * 2.14 Takes in a weight in pounds and height in inches. Converts to Kg and m, and then
+	 * calculates the BMI as kG/(m^2)
+	 */
 	public static void main(String[] args) {
 		System.out.print("Enter weight in pounds: ");
 		Scanner s = new Scanner(System.in);
