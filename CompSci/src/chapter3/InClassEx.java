@@ -24,7 +24,7 @@ public class InClassEx {
 		
 		try {
 			Utils.newLine(3.06);
-			//x3_6(s);
+			x3_6(s);
 			Utils.newLine(3.16);
 			x3_16();
 			Utils.newLine(3.26);
