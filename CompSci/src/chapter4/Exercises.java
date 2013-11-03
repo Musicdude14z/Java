@@ -32,7 +32,7 @@ public class Exercises {
 		} catch(InputMismatchException ime) {
 			s.nextLine();
 			s.close();
-			Utils.err(ime.getMessage()); //exits with err code of 1
+			Utils.err("Please make sure to enter a valid input!"); //exits with err code of 1
 		}
 		
 		s.close();
