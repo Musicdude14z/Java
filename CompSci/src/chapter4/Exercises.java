@@ -7,7 +7,7 @@ import utils.Utils;
 
 /**
  * Chapter 4 Exercises
- * @author Zach
+ * @author Zach Kaplan
  * @version 1.0
  */
 public class Exercises {
