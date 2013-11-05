@@ -102,8 +102,8 @@ public class Exercises2 {
 		
 		double total = 0;
 		for(int i=0; i<months; i++) {
-			total += monthlyDeposit;
-			total *= 1 + interest;
+			total += monthlyDeposit; //add the monthly deposit
+			total *= 1 + interest;  //add the interest
 		}
 		System.out.printf("Your total after %d months is $%.02f!\n", months, total);
 	}
@@ -118,7 +118,7 @@ public class Exercises2 {
 	private static void x4_40() {
 		int numHeads = 0;
 		for(int i=0; i<1_000_000; i++) {
-			if(Math.random() < 0.5) numHeads++;
+			if(Math.random() < 0.5) numHeads++; //50% chance of heads
 		}
 		System.out.printf("Heads: %,d\nTails: %,d", numHeads, 1_000_000 - numHeads);
 	}
