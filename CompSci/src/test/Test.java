@@ -5,7 +5,7 @@ import utils.Timer;
 public class Test {
 	
 	public static void main(String[] args) {
-		test2();
+		waysToClimb(3);
 	}
 	
 	private static void test1() {
@@ -66,6 +66,30 @@ public class Test {
 		
 		System.out.println("Method 2 is faster " + (numFor2/1000d) + "% of the time!");
 		
+	}
+	
+	public static void waysToClimb(int n) {
+		if (n > 0) System.out.print("[");
+		else n = -n;
+		int next1 = n - 1, next2 = n - 2;
+
+		if (next1 < 0) return;
+		else if (next1 == 0) {
+			System.out.println("1]");
+			System.out.print("[");
+		} else {
+			System.out.print("1, ");
+			waysToClimb(-next1);
+		}
+
+		if (next2 < 0) return;
+		else if (next2 == 0) {
+			System.out.println(" 2]");
+			System.out.print("[");
+		} else {
+			System.out.print("2, ");
+			waysToClimb(-next2);
+		}
 	}
 
 }
