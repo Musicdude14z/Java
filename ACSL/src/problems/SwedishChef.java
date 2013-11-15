@@ -28,6 +28,7 @@ public class SwedishChef {
 		for(String line : lines) {
 			String[] words = line.split(" ");
 			for(String word : words) {
+				if(word.equals("")) continue; //avoids excess space
 				System.out.print(toChef(word) + ' ');
 			}
 			System.out.println("BORK BORK BORK!");
