@@ -5,7 +5,7 @@ import utils.Timer;
 public class Test {
 	
 	public static void main(String[] args) {
-		waysToClimb(3);
+		test3();
 	}
 	
 	private static void test1() {
@@ -66,6 +66,69 @@ public class Test {
 		
 		System.out.println("Method 2 is faster " + (numFor2/1000d) + "% of the time!");
 		
+	}
+	
+	private static void test3() {
+		Timer t = new Timer();
+		int lim = 100_000;
+		String add = "n";
+		String s = "";
+		t.start();
+		for(int i=0; i<lim; i++) {
+			s += add;
+		}
+		t.stop();
+		System.out.printf("Time for String+=: %,d; %,d\n", t.getTime(), s.length());
+		//String Builder
+		t.reset();
+		StringBuilder sb = new StringBuilder();
+		t.start();
+		for(int i=0; i<lim; i++) {
+			sb.append(add);
+		}
+		t.stop();
+		System.out.printf("Time for StringBuilder.append: %,d; %,d\n", t.getTime(), sb.length());
+		t.reset();
+		sb = new StringBuilder();
+		t.start();
+		for(int i=0; i<lim; i++) {
+			sb.insert(0, add);
+		}
+		t.stop();
+		System.out.printf("Time for StringBuilder.insert(0): %,d; %,d\n", t.getTime(), sb.length());
+		t.reset();
+		sb = new StringBuilder();
+		t.start();
+		for(int i=0; i<lim; i++) {
+			sb.insert(i, add);
+		}
+		t.stop();
+		System.out.printf("Time for StringBuilder.insert(i): %,d; %,d\n", t.getTime(), sb.length());
+		//capacity ensure
+		t.reset();
+		sb = new StringBuilder(lim);
+		t.start();
+		for(int i=0; i<lim; i++) {
+			sb.append(add);
+		}
+		t.stop();
+		System.out.printf("Time for StringBuilder.append w/ capacity ensure: %,d; %,d\n", t.getTime(), sb.length());
+		t.reset();
+		sb = new StringBuilder(lim);
+		t.start();
+		for(int i=0; i<lim; i++) {
+			sb.insert(0, add);
+		}
+		t.stop();
+		System.out.printf("Time for StringBuilder.insert(0) w/ capacity ensure: %,d; %,d\n", t.getTime(), sb.length());
+		t.reset();
+		sb = new StringBuilder(lim);
+		t.start();
+		for(int i=0; i<lim; i++) {
+			sb.insert(i, add);
+		}
+		t.stop();
+		System.out.printf("Time for StringBuilder.insert(i) w/ capacity ensure: %,d; %,d\n", t.getTime(), sb.length());
 	}
 	
 	public static void waysToClimb(int n) {
