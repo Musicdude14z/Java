@@ -11,7 +11,7 @@ import utils.Utils;
  * @version 1.0
  */
 public class Exercises1 {
-
+	
 	/**
 	 * Main Method
 	 * @param args - standard input
