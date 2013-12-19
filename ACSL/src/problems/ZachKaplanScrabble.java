@@ -4,10 +4,14 @@ import java.util.Scanner;
 
 /**
  * ACSL Scrabble
+ * <p>
+ * School: Bergen County Academies
+ * <p>
+ * Division: Senior
  * @author Zach Kaplan
  * @version 1.0
  */
-public class Scrabble {
+public class ZachKaplanScrabble {
 	
 	//Double Letter, Triplet Letter, Double Word, Triple Word
 	public static final int DL = 1, TL = 2, DW = 3, TW = 4;
