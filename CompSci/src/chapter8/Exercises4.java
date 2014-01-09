@@ -45,6 +45,12 @@ public class Exercises4 {
 				l.maxValue, l.row, l.column);
 	}
 	
+	/**
+	 * Class Location for Exercise 8.13
+	 * Finds the location of the largest value in a double array
+	 * @author Zach Kaplan
+	 * @version 1.0
+	 */
 	private static class Location {
 		public int row, column;
 		public double maxValue;
