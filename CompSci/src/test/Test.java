@@ -2,10 +2,37 @@ package test;
 
 import utils.Timer;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.ListIterator;
+
 public class Test {
 	
 	public static void main(String[] args) {
-		test3();
+		LinkedList<Integer> l = new LinkedList<Integer>();
+		for(int i=0; i<5; i++) l.add(i);
+		l.offerLast(5);
+		l.offerFirst(-1);
+		l.removeFirstOccurrence(3);
+		System.out.println(l);
+		System.out.println(l.size());
+		/*
+		ListIterator<Integer> i = l.listIterator();
+		while(i.hasNext()) {
+			int a = i.next();
+			System.out.println(a);
+			if(a % 2 == 0) i.remove();
+			else {
+				i.set(2*a);
+				i.add(4*a);
+				while(i.hasPrevious()) {
+					System.out.println(i.previous());
+				}
+			}
+		}
+		System.out.println(l);
+		*/
 	}
 	
 	private static void test1() {
