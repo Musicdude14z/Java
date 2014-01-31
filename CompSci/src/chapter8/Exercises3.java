@@ -27,7 +27,7 @@ public class Exercises3 {
 	 * @author Zach Kaplan
 	 * @version 1.0
 	 */
-	private static class Account {
+	public static class Account {
 		private int id = 0;
 		private double balance = 0;
 		private static double annualInterestRate = 0;

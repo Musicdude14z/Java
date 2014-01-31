@@ -1,6 +1,5 @@
 package chapter9;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 import utils.Utils;
@@ -36,8 +35,8 @@ public class Exercises1 {
 	 * @param s - Scanner
 	 */
 	private static void x9_04(Scanner s) {
-		System.out.print("Please enter a String followed by a character: ");
-		String[] in = s.nextLine().split("\\s+", 2); //split input at space, only two elements
+		System.out.print("Please enter a String, character: ");
+		String[] in = s.nextLine().split(",\\s+", 2); //split input at space, only two elements
 		//call with string and first character after space
 		int count = count(in[0], in[1].charAt(0)); 
 		System.out.printf("There are %d occurances of '%c' in \"%s\"\n", 
