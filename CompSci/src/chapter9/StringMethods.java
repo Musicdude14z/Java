@@ -18,7 +18,7 @@ public class StringMethods {
 	
 	//checks for vaid email
 	private static boolean isEmail(String email) {
-		return email.matches("[\\w\\d.+-]+@[\\w.-]+[.]\\w+");
+		return email.matches("[\\w.+-]+@[\\w.-]+(.)[\\w&&[^\\d]]+");
 	}
 	//zacharytrent@gmail.com test3r@fun.test.com; Iwon'twork@test.com,	nahh_mann@iamboss.com
 	
