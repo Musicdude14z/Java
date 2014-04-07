@@ -1,3 +1,4 @@
+//Zachary Kaplan, Bergen County Academies, Senior Division
 package problems;
 
 import java.io.BufferedReader;
@@ -7,9 +8,9 @@ import java.io.InputStreamReader;
 /**
  * Print Formatting Problem for ACSL
  * @author Zach Kaplan
- * School - Beren County Academies, 
+ * School - Bergen County Academies, 
  * The Academy for the Advancement of Science and Technology [AAST]
- * Senior Devision
+ * Senior Division
  * @version 1.0
  */
 public class ZachKaplanPrintFormatting {
@@ -62,22 +63,20 @@ public class ZachKaplanPrintFormatting {
 		}
 		
 		String formatted;
-		if(dollar && !f.startsWith("*")) spaceBefore = 0;
+		if(dollar && !f.startsWith("*") && !e) spaceBefore = 0;
 		
 		if(e) {
-			formatted = String.format("%." + (spaceBefore - 1) + "E", val)
-					.replaceAll("[+-]0*", ""); //remove different exp formatting for E+01 => E1
+			formatted = String.format("%." + (spaceBefore - 1) + "E", val);
+			int indexOfE = formatted.indexOf('E');
+			long suffix = Long.parseLong(formatted.substring(indexOfE+1));
+			formatted = (dollar ? '$': "") + formatted.substring(0, indexOfE+1) + suffix;
 		} else {
-			formatted = String.format("%" + (comma?",.":".") + spaceAfter + "f", val);
+			formatted = (dollar ? '$' : "") + String.format("%" + (comma ? ",." : ".") + 
+					spaceAfter + "f", val);
 			int numDig = numDigits((int)val); //find amount of space already taken
 			for(int i=0; i<spaceBefore-numDig; i++) {
 				formatted = '*' + formatted;
 			}
-		}
-		
-		if(dollar) { //insert dollar sign
-			int i = formatted.lastIndexOf('*'); //after last leading '*'
-			formatted = formatted.substring(0, i+1) + "$" + formatted.substring(i+1);
 		}
 		
 		return formatted;
