@@ -14,12 +14,12 @@ import java.util.Scanner;
 public class ZachKaplanNumble {
 	
 	/* Test Data:
-	 * 1. 9768014, 6874514, 9655532
-	 * 2. 7, 7, 5, 7, 6
-	 * 3. 6, 5, 3, 6, 9
-	 * 4. 5, 6, 4, 6, 9
-	 * 5. 4, 5, 4, 8, 6
-	 * 6. 6, 6, 4, 4, 6
+1. 9768014, 6874514, 9655532
+2. 7, 7, 5, 7, 6
+3. 6, 5, 3, 6, 9
+4. 5, 6, 4, 6, 9
+5. 4, 5, 4, 8, 6
+6. 6, 6, 4, 4, 6
 	 */
 	
 	public static void main(String[] args) {
@@ -122,6 +122,8 @@ public class ZachKaplanNumble {
 	 * @return numerical value
 	 */
 	private static int getVal(char c) {
+		return c - 48;
+		/*
 		switch(c) {
 		case '0':
 			return 0;
@@ -145,7 +147,7 @@ public class ZachKaplanNumble {
 			return 9;
 		default:
 			return -1;
-		}
+		}*/
 	}
 	
 	/**
