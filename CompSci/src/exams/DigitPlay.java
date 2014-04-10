@@ -11,6 +11,8 @@ import java.util.Scanner;
 public class DigitPlay {
 	
 	/**
+	 * TESTS PROBLEM 2 (uncommented portion)
+	 * TESTS PROBLEM 1 (commented portion)
 	 * Main method for the DigitPlay class
 	 * Tests the static methods of the DigitPlay class
 	 * @param args - stdin args
@@ -56,6 +58,7 @@ public class DigitPlay {
 	}
 	
 	/**
+	 * GIVEN
 	 * Recursively counts the digits in a positive integer
 	 * @param num - number to count digits of
 	 * @return number of digits in num
@@ -68,6 +71,7 @@ public class DigitPlay {
 	}
 	
 	/**
+	 * PROBLEM 1
 	 * Recursively sums the digits in a positive integer
 	 * @param n - number to sum digits of
 	 * @return sum of digits in n
