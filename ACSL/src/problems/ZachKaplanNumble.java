@@ -22,6 +22,15 @@ public class ZachKaplanNumble {
 6. 6, 6, 4, 4, 6
 	 */
 	
+	/* ACSL Data:
+1. 3867259, 4595156, 8597565
+2. 7, 3, 5, 5, 8
+3. 5, 5, 5, 9, 5
+4. 4, 4, 4, 9, 7
+5. 5, 7, 4, 6, 8
+6. 7, 3, 5, 6, 5
+	 */
+	
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		String[] digits = s.nextLine().substring(3).split(", "); //cuts off line number
