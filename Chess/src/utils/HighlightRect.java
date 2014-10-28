@@ -7,26 +7,16 @@ import org.newdawn.slick.state.StateBasedGame;
 
 public class HighlightRect extends BasicRect {
 	
-	protected Color color = Color.transparent, highlight = Color.transparent, current;
+	protected Color color, highlight, current;
 	protected boolean highlighted = false;
 	
 	public HighlightRect(float x, float y, float width, float height) {
-		this.x = x;
-		this.y = y;
-		this.width = width;
-		this.height = height;
-		current = color;
+		this(x, y, width, height, Color.transparent, Color.transparent);
 	}
 	
 	public HighlightRect(float x, float y, float width, float height, 
 			Color color) {
-		this.x = x;
-		this.y = y;
-		this.width = width;
-		this.height = height;
-		this.color = color;
-		this.highlight = color;
-		current = color;
+		this(x, y, width, height, color, color);
 	}
 	
 	public HighlightRect(float x, float y, float width, float height, 

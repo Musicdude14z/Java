@@ -8,41 +8,22 @@ import org.lwjgl.input.Mouse;
 
 public class ClickableRect extends BasicRect {
 
-	protected Color color = Color.transparent, hover = Color.transparent, 
-			active = Color.transparent, current;
+	protected Color color, hover, active, current;
 	protected boolean mouseDown = false, wasMouseDown = false;
 	protected int mouseButton = -1;
 	
 	public ClickableRect(float x, float y, float width, float height) {
-		this.x = x;
-		this.y = y;
-		this.width = width;
-		this.height = height;
-		current = color;
+		this(x, y, width, height, Color.transparent, Color.transparent, Color.transparent);
 	}
-	
+
 	public ClickableRect(float x, float y, float width, float height, 
 			Color color) {
-		this.x = x;
-		this.y = y;
-		this.width = width;
-		this.height = height;
-		this.color = color;
-		this.hover = color;
-		this.active = color;
-		current = color;
+		this(x, y, width, height, color, color, color);
 	}
 	
 	public ClickableRect(float x, float y, float width, float height, 
 			Color color, Color hover) {
-		this.x = x;
-		this.y = y;
-		this.width = width;
-		this.height = height;
-		this.color = color;
-		this.hover = hover;
-		this.active = hover;
-		current = color;
+		this(x, y, width, height, color, hover, hover);
 	}
 	
 	public ClickableRect(float x, float y, float width, float height, 

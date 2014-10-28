@@ -31,7 +31,7 @@ public class SwedishChef {
 				if(word.equals("")) continue; //avoids excess space
 				System.out.print(toChef(word) + ' ');
 			}
-			System.out.println("BORK BORK BORK!");
+			System.out.println();
 		}
 		s.close();
 	}
@@ -46,7 +46,7 @@ public class SwedishChef {
 	private static String toChef(String s) {
 		String punctuation = "";
 		while(s.matches(".*\\p{Punct}$")) { //while s ends in punctuation
-			punctuation = s.substring(s.length()-1) + punctuation; //add it before punctuation
+			punctuation = s.substring(s.length()-1) + punctuation + " BORK BORK BORK!"; //add it before punctuation
 			s = s.substring(0, s.length()-1); //strip punctuation from s
 		}
 		word = s;

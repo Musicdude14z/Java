@@ -29,8 +29,9 @@ public class BigWords {
 		*/
 		System.out.print("Enter a phrase: ");
 		Scanner s = new Scanner(System.in);
-		String str = s.nextLine();
-		System.out.println(getBigString(str));
+		in = s.nextLine();
+		System.out.println(getBigString(in));
+		s.close();
 	}
 	
 	public static String getBigString(String s) {

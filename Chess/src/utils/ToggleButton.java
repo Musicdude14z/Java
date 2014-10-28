@@ -9,9 +9,7 @@ import org.newdawn.slick.state.StateBasedGame;
 
 public class ToggleButton extends BasicRect{
 
-	protected Color color = Color.transparent, hover = Color.transparent, 
-			active = Color.transparent, hoverActive = Color.transparent, 
-			textColor = Color.transparent, current;
+	protected Color color, hover, active, hoverActive, textColor, current;
 	protected boolean toggled = false, mouseWasDown = false;
 	protected String text;
 	
