@@ -108,7 +108,7 @@ public class Play extends BasicGameState{
 		player = new User(x, y, height, width);
 		players.add(player);
 		System.out.println("YES");
-		}
+	}
 
 	public void render(GameContainer gc, StateBasedGame sbg, Graphics g)
 			throws SlickException {
@@ -147,9 +147,9 @@ public class Play extends BasicGameState{
 			sbg.enterState(mainMenu);
 		}
 		if(input.isKeyDown(Input.KEY_SPACE)) {
-			int spacing = true || player.hasPower("Rapid Fire") ? 100 : 250;
+			int spacing = player.hasPower("Rapid Fire") ? 100 : 250;
 			if(time >= lastFired + spacing) {
-				if(true || player.hasPower("Tracking Bullet")) {
+				if(player.hasPower("Tracking Bullet")) {
 					bullets.add(new TrackingBullet(top, left, right, bottom, asteroids, gc));
 				}else {
 					bullets.add(new Bullet(top, left, right, bottom, gc));
